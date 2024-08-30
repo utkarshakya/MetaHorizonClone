@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,20 +6,16 @@
     <link rel="stylesheet" href="style.css" />
     <title>Meta Horizon</title>
   </head>
-  <body class="h-screen relative">
+  <body class="relative h-screen">
     <!-- nav section starts here -->
-    <nav class="flex justify-between sticky top-0 z-10 bg-white">
+    <nav class="sticky top-0 z-10 flex justify-between bg-white">
       <div class="my-3 ml-6">
-        <img
-          src="./vitalFiles/logo.svg"
-          alt=""
-          class="w-40 p-2"
-        />
+        <img src="./vitalFiles/logo.svg" alt="" class="w-40 p-2" />
       </div>
       <div class="my-3 mr-6 flex gap-4">
         <button class="text-sm font-normal">Log in</button>
         <button
-          class="md:hidden bg-indigo-600 rounded-full py-2 px-4 text-white text-sm font-semibold"
+          class="rounded-full bg-indigo-600 px-4 py-2 text-sm font-semibold text-white md:hidden"
         >
           View app
         </button>
@@ -28,15 +24,28 @@
     <!-- nav section ends here -->
 
     <!-- header section starts here -->
-    <header class="bg-[url('./vitalFiles/h-bg-default.jpg')] bg-center bg-cover flex flex-col justify-center items-center px-8 py-24 text-white ">
-        <img src="./vitalFiles/meta-horizon-default.svg" alt="meta horizon" class="w-52">
-        <h3 class="font-bold text-xl my-2">Available now for mobile and web.</h3>
-        <button class="rounded-full px-6 py-1.5 font-normal my-4 text-black bg-white hover:bg-opacity-50 lg:hidden">Download the app</button>
-        <button class="rounded-full px-8 py-1 text-black bg-white hover:bg-opacity-50 hidden lg:block">Sign up or log in to Meta account</button>
-        <p class="text-xs hover:underline">Learn more about Meta accounts</p>
+    <header
+      class="flex flex-col items-center justify-center bg-[url('./vitalFiles/h-bg-default.jpg')] bg-cover bg-center px-8 py-24 text-white"
+    >
+      <img
+        src="./vitalFiles/meta-horizon-default.svg"
+        alt="meta horizon"
+        class="w-52"
+      />
+      <h3 class="my-2 text-xl font-bold">Available now for mobile and web.</h3>
+      <button
+        class="my-4 rounded-full bg-white px-6 py-1.5 font-normal text-black hover:bg-opacity-50 lg:hidden"
+      >
+        Download the app
+      </button>
+      <button
+        class="hidden rounded-full bg-white px-8 py-1 text-black hover:bg-opacity-50 lg:block"
+      >
+        Sign up or log in to Meta account
+      </button>
+      <p class="text-xs hover:underline">Learn more about Meta accounts</p>
     </header>
     <!-- header section ends here -->
-     <main>
-     </main>
+    <main></main>
   </body>
 </html>
