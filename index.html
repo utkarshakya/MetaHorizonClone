@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="style.css" />
     <title>Meta Horizon</title>
   </head>
-  <body class="font-sans">
+  <body class="h-screen relative">
     <!-- nav section starts here -->
-    <nav class="flex justify-between border">
+    <nav class="flex justify-between sticky top-0 z-10 bg-white">
       <div class="my-3 ml-6">
         <img
           src="./vitalFiles/logo.svg"
@@ -28,8 +28,15 @@
     <!-- nav section ends here -->
 
     <!-- header section starts here -->
-    <header>
-
+    <header class="bg-[url('./vitalFiles/h-bg-default.jpg')] bg-center bg-cover flex flex-col justify-center items-center px-8 py-24 text-white ">
+        <img src="./vitalFiles/meta-horizon-default.svg" alt="meta horizon" class="w-52">
+        <h3 class="font-bold text-xl my-2">Available now for mobile and web.</h3>
+        <button class="rounded-full px-6 py-1.5 font-normal my-4 text-black bg-white hover:bg-opacity-50 lg:hidden">Download the app</button>
+        <button class="rounded-full px-8 py-1 text-black bg-white hover:bg-opacity-50 hidden lg:block">Sign up or log in to Meta account</button>
+        <p class="text-xs hover:underline">Learn more about Meta accounts</p>
     </header>
+    <!-- header section ends here -->
+     <main>
+     </main>
   </body>
 </html>
