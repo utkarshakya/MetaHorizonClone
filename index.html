@@ -8,12 +8,14 @@
   </head>
   <body class="relative h-screen">
     <!-- nav section starts here -->
-    <nav class="sticky top-0 z-10 flex justify-between bg-white">
-      <div class="my-3 ml-6">
-        <img src="./vitalFiles/logo.svg" alt="" class="w-40 p-2" />
+    <nav
+      class="sticky top-0 z-10 flex justify-between bg-white px-5 lg:px-12 lg:py-5"
+    >
+      <div class="my-3">
+        <img src="./vitalFiles/logo.svg" alt="" class="w-40" />
       </div>
-      <div class="my-3 mr-6 flex gap-4">
-        <button class="text-sm font-normal">Log in</button>
+      <div class="my-3 flex gap-4">
+        <button class="text-sm font-normal lg:text-base">Log in</button>
         <button
           class="rounded-full bg-indigo-600 px-4 py-2 text-sm font-semibold text-white md:hidden"
         >
@@ -25,21 +27,31 @@
 
     <!-- header section starts here -->
     <header
-      class="flex flex-col items-center justify-center bg-[url('./vitalFiles/h-bg-default.jpg')] bg-cover bg-center px-8 py-24 text-white"
+      class="flex flex-col items-center justify-center bg-[url('./vitalFiles/h-bg-default.jpg')] bg-cover bg-center px-8 py-24 text-white md:bg-[url('./vitalFiles/h-bg-md.jpg')] lg:bg-[url('./vitalFiles/h-bg-lg.jpg')] min-[2560px]:bg-[url('./vitalFiles/h-bg-3xl.jpg')]"
     >
       <img
         src="./vitalFiles/meta-horizon-default.svg"
         alt="meta horizon"
-        class="w-52"
+        class="w-52 md:hidden"
       />
-      <h3 class="my-2 text-xl font-bold">Available now for mobile and web.</h3>
+      <img
+        src="./vitalFiles/meta-horizon-md.svg"
+        alt="meta horizon"
+        class="hidden w-52 md:block lg:hidden"
+      />
+      <img
+        src="./vitalFiles/meta-horizon-lg.svg"
+        alt="meta horizon"
+        class="hidden w-[500px] lg:block"
+      />
+      <h3 class="my-2 text-xl font-bold lg:text-2xl">Available now for mobile and web.</h3>
       <button
         class="my-4 rounded-full bg-white px-6 py-1.5 font-normal text-black hover:bg-opacity-50 lg:hidden"
       >
         Download the app
       </button>
       <button
-        class="hidden rounded-full bg-white px-8 py-1 text-black hover:bg-opacity-50 lg:block"
+        class="hidden rounded-full bg-white px-8 py-4 my-6 text-black hover:bg-opacity-50 lg:block"
       >
         Sign up or log in to Meta account
       </button>

@@ -585,12 +585,21 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .ml-6 {
   margin-left: 1.5rem;
 }
 
 .mr-6 {
   margin-right: 1.5rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -611,6 +620,42 @@ video {
 
 .w-52 {
   width: 13rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .flex-col {
@@ -647,8 +692,24 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-15 {
+  --tw-bg-opacity: 0.15;
+}
+
 .bg-\[url\(\'\.\/vitalFiles\/h-bg-default\.jpg\'\)\] {
   background-image: url('./vitalFiles/h-bg-default.jpg');
+}
+
+.bg-\[url\(\'\.\/vitalFiles\/h-bg-lg\.jpg\'\)\] {
+  background-image: url('./vitalFiles/h-bg-lg.jpg');
+}
+
+.bg-\[url\(\'\.\/vitalFiles\/h-bg-md\.jpg\'\)\] {
+  background-image: url('./vitalFiles/h-bg-md.jpg');
+}
+
+.bg-\[url\(\'\.\/vitalFiles\/h-bg-3xl\.jpg\'\)\] {
+  background-image: url('./vitalFiles/h-bg-3xl.jpg');
 }
 
 .bg-cover {
@@ -698,6 +759,21 @@ video {
   padding-bottom: 6rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -735,6 +811,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.opacity-15 {
+  opacity: 0.15;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
 .hover\:bg-opacity-50:hover {
   --tw-bg-opacity: 0.5;
 }
@@ -744,8 +828,52 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:hidden {
     display: none;
+  }
+
+  .md\:bg-\[\] {
+    background-color: ;
+  }
+
+  .md\:bg-\[url\] {
+    background-color: url;
+  }
+
+  .md\:bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+
+  .md\:bg-\[url\(\'\.\/vitalFiles\/\'\)\] {
+    background-image: url('./vitalFiles/');
+  }
+
+  .md\:bg-\[url\(\'\.\/vitalFiles\/h\'\)\] {
+    background-image: url('./vitalFiles/h');
+  }
+
+  .md\:bg-\[url\(\'\.\/vitalFiles\/h-\'\)\] {
+    background-image: url('./vitalFiles/h-');
+  }
+
+  .md\:bg-\[url\(\'\.\/vitalFiles\/h-bg\'\)\] {
+    background-image: url('./vitalFiles/h-bg');
+  }
+
+  .md\:bg-\[url\(\'\.\/vitalFiles\/h-bg-md\'\)\] {
+    background-image: url('./vitalFiles/h-bg-md');
+  }
+
+  .md\:bg-\[url\(\'\.\/vitalFiles\/h-bg-md\.jpc\'\)\] {
+    background-image: url('./vitalFiles/h-bg-md.jpc');
+  }
+
+  .md\:bg-\[url\(\'\.\/vitalFiles\/h-bg-md\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-md.jpg');
   }
 }
 
@@ -756,5 +884,114 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:w-6 {
+    width: 1.5rem;
+  }
+
+  .lg\:w-64 {
+    width: 16rem;
+  }
+
+  .lg\:w-4 {
+    width: 1rem;
+  }
+
+  .lg\:w-48 {
+    width: 12rem;
+  }
+
+  .lg\:w-40 {
+    width: 10rem;
+  }
+
+  .lg\:bg-\[url\(\'\.\/vitalFiles\/h-bg-default\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-default.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/vitalFiles\/h-bg-\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/vitalFiles\/h-bg-l\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-l.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/vitalFiles\/h-bg-lg\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-lg.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/vitalFiles\/h-bg-md\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-md.jpg');
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:bg-\[url\(\'\.\/vitalFiles\/h-bg-lg\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-lg.jpg');
+  }
+
+  .xl\:bg-\[url\(\'\.\/vitalFiles\/h-bg-\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-.jpg');
+  }
+
+  .xl\:bg-\[url\(\'\.\/vitalFiles\/h-bg-xl\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-xl.jpg');
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:bg-\[url\(\'\.\/vitalFiles\/h-bg-xl\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-xl.jpg');
+  }
+
+  .\32xl\:bg-\[url\(\'\.\/vitalFiles\/h-bg-2xl\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-2xl.jpg');
+  }
+}
+
+@media (min-width: 2560px) {
+  .min-\[2560px\]\:bg-\[url\(\'\.\/vitalFiles\/h-bg-3xl\.jpg\'\)\] {
+    background-image: url('./vitalFiles/h-bg-3xl.jpg');
   }
 }
