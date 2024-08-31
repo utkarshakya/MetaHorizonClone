@@ -9,10 +9,10 @@
   <body class="relative h-screen">
     <!-- nav section starts here -->
     <nav
-      class="sticky top-0 z-10 flex justify-between bg-white px-5 lg:px-12 lg:py-5"
+      class="sticky top-0 z-10 flex justify-between bg-white px-6 lg:px-12 lg:py-5"
     >
-      <div class="my-3">
-        <img src="./vitalFiles/logo.svg" alt="" class="w-40" />
+      <div class="mb-4 mt-5">
+        <img src="./vitalFiles/logo.svg" alt="" class="w-36 lg:w-40" />
       </div>
       <div class="my-3 flex gap-4">
         <button class="text-sm font-normal lg:text-base">Log in</button>
@@ -44,20 +44,55 @@
         alt="meta horizon"
         class="hidden w-[500px] lg:block"
       />
-      <h3 class="text-xl font-bold lg:text-2xl">Available now for mobile and web.</h3>
+      <h3 class="text-xl font-bold lg:text-2xl">
+        Available now for mobile and web.
+      </h3>
       <button
-        class="my-4 rounded-full bg-white px-6 py-1.5 font-normal text-black hover:bg-opacity-50 lg:hidden"
+        class="mt-8 rounded-full bg-white px-6 py-1.5 font-normal text-black hover:bg-opacity-50 lg:hidden"
       >
         Download the app
       </button>
       <button
-        class="hidden rounded-full bg-white px-8 py-4 mt-12 text-black hover:bg-opacity-50 lg:block"
+        class="mt-12 hidden rounded-full bg-white px-8 py-4 text-black hover:bg-opacity-50 lg:block"
       >
         Sign up or log in to Meta account
       </button>
-      <p class="text-xs hover:underline mt-4">Learn more about Meta accounts</p>
+      <p class="mt-4 text-xs hover:underline">Learn more about Meta accounts</p>
     </header>
     <!-- header section ends here -->
-    <main></main>
+
+    <!-- main section start here -->
+    <main class="flex flex-col items-center bg-slate-100">
+      <section
+        class="lg:mt-38 mt-24 flex flex-col justify-center px-10 lg:items-center"
+      >
+        <h2 class="mb-6 text-xl font-bold lg:mb-10 lg:text-2xl">
+          Featured world
+        </h2>
+        <div class="h-60 overflow-hidden rounded-xl lg:h-80">
+          <img
+            src="./vitalFiles/citadel.jpg"
+            alt="citadel"
+            class="h-full object-cover object-center"
+          />
+        </div>
+        <div class="flex flex-col lg:flex-row mt-4">
+          <div class="flex flex-col">
+            <h2 class="text-xl font-bold">Citadel</h2>
+            <div>
+              <span>MetaHorizon</span>
+              <span>10.5K</span>
+            </div>
+            <div>
+              <span>Mobile and VR</span>
+            </div>
+          </div>
+          <div>
+            <button>Sign in to visit</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main section ends here -->
   </body>
 </html>
