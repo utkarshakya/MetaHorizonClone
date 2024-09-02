@@ -1,98 +1,86 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Meta Horizon</title>
-  </head>
-  <body class="relative h-screen">
-    <!-- nav section starts here -->
-    <nav
-      class="sticky top-0 z-10 flex justify-between bg-white px-6 lg:px-12 lg:py-5"
-    >
-      <div class="mb-4 mt-5">
-        <img src="./vitalFiles/logo.svg" alt="" class="w-36 lg:w-40" />
-      </div>
-      <div class="my-3 flex gap-4">
-        <button class="text-sm font-normal lg:text-base">Log in</button>
-        <button
-          class="rounded-full bg-indigo-600 px-4 py-2 text-sm font-semibold text-white md:hidden"
-        >
-          View app
-        </button>
-      </div>
-    </nav>
-    <!-- nav section ends here -->
 
-    <!-- header section starts here -->
-    <header
-      class="flex flex-col items-center justify-center bg-[url('./vitalFiles/h-bg-default.jpg')] bg-cover bg-center px-8 py-24 text-white md:bg-[url('./vitalFiles/h-bg-md.jpg')] lg:bg-[url('./vitalFiles/h-bg-lg.jpg')] min-[2560px]:bg-[url('./vitalFiles/h-bg-3xl.jpg')]"
-    >
-      <img
-        src="./vitalFiles/meta-horizon-default.svg"
-        alt="meta horizon"
-        class="w-52 md:hidden"
-      />
-      <img
-        src="./vitalFiles/meta-horizon-md.svg"
-        alt="meta horizon"
-        class="hidden w-52 md:block lg:hidden"
-      />
-      <img
-        src="./vitalFiles/meta-horizon-lg.svg"
-        alt="meta horizon"
-        class="hidden w-[500px] lg:block"
-      />
-      <h3 class="text-xl font-bold lg:text-2xl">
-        Available now for mobile and web.
-      </h3>
-      <button
-        class="mt-8 rounded-full bg-white px-6 py-1.5 font-normal text-black hover:bg-opacity-50 lg:hidden"
-      >
-        Download the app
-      </button>
-      <button
-        class="mt-12 hidden rounded-full bg-white px-8 py-4 text-black hover:bg-opacity-50 lg:block"
-      >
-        Sign up or log in to Meta account
-      </button>
-      <p class="mt-4 text-xs hover:underline">Learn more about Meta accounts</p>
-    </header>
-    <!-- header section ends here -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Meta Horizon</title>
+</head>
 
-    <!-- main section start here -->
-    <main class="flex flex-col items-center bg-slate-100">
-      <section
-        class="lg:mt-38 mt-24 flex flex-col justify-center px-10 lg:items-center"
-      >
-        <h2 class="mb-6 text-xl font-bold lg:mb-10 lg:text-2xl">
-          Featured world
-        </h2>
-        <div class="h-60 overflow-hidden rounded-xl lg:h-80">
-          <img
-            src="./vitalFiles/citadel.jpg"
-            alt="citadel"
-            class="h-full object-cover object-center"
-          />
-        </div>
-        <div class="flex flex-col lg:flex-row mt-4">
-          <div class="flex flex-col">
-            <h2 class="text-xl font-bold">Citadel</h2>
+<body class="relative h-screen">
+  <!-- nav section starts here -->
+  <nav class="sticky top-0 z-10 flex justify-between bg-white px-6 lg:px-12 lg:py-5">
+    <div class="mb-4 mt-5">
+      <img src="./vitalFiles/logo.svg" alt="" class="w-36 lg:w-40" />
+    </div>
+    <div class="my-3 flex gap-4">
+      <button class="text-sm font-normal lg:text-base">Log in</button>
+      <button class="rounded-full bg-indigo-600 px-4 py-2 text-sm font-semibold text-white md:hidden">
+        View app
+      </button>
+    </div>
+  </nav>
+  <!-- nav section ends here -->
+
+  <!-- header section starts here -->
+  <header
+    class="flex flex-col items-center justify-center bg-[url('./vitalFiles/h-bg-default.jpg')] bg-cover bg-center px-8 py-24 text-white md:bg-[url('./vitalFiles/h-bg-md.jpg')] lg:bg-[url('./vitalFiles/h-bg-lg.jpg')] min-[2560px]:bg-[url('./vitalFiles/h-bg-3xl.jpg')]">
+    <img src="./vitalFiles/meta-horizon-default.svg" alt="meta horizon" class="w-52 md:hidden" />
+    <img src="./vitalFiles/meta-horizon-md.svg" alt="meta horizon" class="hidden w-52 md:block lg:hidden" />
+    <img src="./vitalFiles/meta-horizon-lg.svg" alt="meta horizon" class="hidden w-[500px] lg:block" />
+    <h3 class="text-xl font-bold lg:text-2xl">
+      Available now for mobile and web.
+    </h3>
+    <button class="mt-8 rounded-full bg-white px-6 py-1.5 font-normal text-black hover:bg-opacity-50 lg:hidden">
+      Download the app
+    </button>
+    <button class="mt-12 hidden rounded-full bg-white px-8 py-4 text-black hover:bg-opacity-50 lg:block">
+      Sign up or log in to Meta account
+    </button>
+    <p class="mt-4 text-xs hover:underline">Learn more about Meta accounts</p>
+  </header>
+  <!-- header section ends here -->
+
+  <!-- main section start here -->
+  <main class="flex flex-col items-center bg-slate-100">
+    <!-- Featured world section starts here -->
+    <section class="lg:mt-38 mt-24 flex flex-col justify-center px-10 lg:items-center">
+      <h2 class="mb-6 text-xl font-bold lg:mb-10 lg:text-2xl">
+        Featured world
+      </h2>
+      <div class="h-60 overflow-hidden rounded-xl lg:h-80">
+        <img src="./vitalFiles/citadel.jpg" alt="citadel" class="h-full object-cover object-center" />
+      </div>
+      <div class="mt-4 flex flex-col lg:flex-row gap-6">
+        <div class="flex flex-col">
+          <h2 class="text-xl font-bold">Citadel</h2>
+          <div class="flex text-sm font-bold text-gray-700 gap-1">
             <div>
+              <img src="./vitalFiles/men.svg" alt="MetaHorizon" class="inline-block">
               <span>MetaHorizon</span>
+            </div>
+            <div>
+              <img src="./vitalFiles/like.svg" alt="like" class="inline-block">
               <span>10.5K</span>
             </div>
-            <div>
-              <span>Mobile and VR</span>
-            </div>
           </div>
-          <div>
-            <button>Sign in to visit</button>
+          <div class="text-sm font-bold text-gray-700">
+            <img src="./vitalFiles/mobile.svg" alt="Mobile" class="inline-block">
+            <span>Mobile and VR</span>
           </div>
         </div>
-      </section>
-    </main>
-    <!-- main section ends here -->
-  </body>
+        <button class="hidden rounded-full bg-indigo-900 px-6 py-1.5 text-white lg:block">
+          Sign in to visit
+        </button>
+        <button class="rounded-full bg-indigo-900 px-6 py-1.5 text-white lg:hidden">
+          Download the app
+        </button>
+      </div>
+    </section>
+    <!-- Featured world section ends here -->
+  </main>
+  <!-- main section ends here -->
+</body>
+
 </html>
