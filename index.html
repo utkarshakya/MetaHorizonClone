@@ -10,15 +10,15 @@
   <body class="relative h-screen">
     <!-- nav section - START -->
     <nav
-      class="sticky top-0 z-10 flex justify-between bg-white px-6 lg:px-12 lg:py-5"
+      class="sticky top-0 z-10 flex justify-center items-center sm:justify-between sm:gap-2 flex-wrap bg-white px-2 sm:px-6 lg:px-12 lg:py-5 py-3 gap-6"
     >
-      <div class="mb-4 mt-5">
+      <div>
         <img src="./vitalFiles/logo.svg" alt="" class="w-36 lg:w-40" />
       </div>
-      <div class="my-3 flex gap-4">
-        <button class="text-sm font-normal lg:text-base">Log in</button>
+      <div class="flex">
+        <button class="text-sm font-semibold px-4 py-2 lg:text-base hover:underline">Log in</button>
         <button
-          class="rounded-full bg-indigo-800 bg-opacity-90 px-4 py-2 text-sm font-semibold text-white md:hidden"
+          class="rounded-full bg-indigo-800 bg-opacity-90 px-4 py-2 text-xs sm:text-sm font-semibold text-white md:hidden hover:bg-indigo-700"
         >
           View app
         </button>
@@ -144,10 +144,10 @@
 
       <!-- Endless play section - START -->
       <section
-        class="w-full mt-24 flex flex-col content-center justify-center gap-10 px-5 md:px-80 md:flex-row"
+        class="w-full my-24 flex flex-col content-center justify-center gap-10 px-5 md:px-80 md:flex-row"
       >
         <div
-          class="flex items-center justify-center overflow-hidden rounded-3xl"
+          class="flex items-center justify-center overflow-hidden rounded-3xl  md:shrink-0"
         >
           <img
             src="./vitalFiles/EndlessPlay.jpg"
@@ -156,7 +156,7 @@
           />
         </div>
         <div
-          class="flex w-[200px] flex-col justify-center gap-7 lg:w-[600px] xl:w-[800px]"
+          class="flex w-[100%] flex-col justify-center gap-7 lg:w-[600px] xl:w-[800px]"
         >
           <h3 class="text-xl font-bold lg:text-2xl">Endless play. Anywhere.</h3>
           <p class="text-base text-gray-500 lg:text-lg">
@@ -171,7 +171,7 @@
       <!-- Endless play section - END -->
 
       <!-- Discover in VR section - START -->
-      <section
+      <!-- <section
         class="mx-6 mt-24 flex flex-col content-center justify-center gap-10 sm:mx-9 md:mx-16 md:flex-row lg:mx-36 lg:mt-40"
       >
         <div
@@ -193,9 +193,8 @@
             more to explore in VR with Meta Horizon worlds.
           </p>
         </div>
-      </section>
+      </section> -->
       <!-- Discover in VR section - END -->
-      <br /><br /><br /><br />
     </main>
     <!-- main section - END -->
   </body>
