@@ -989,9 +989,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:m-\[650px\] {
+    margin: 650px;
+  }
+
   .md\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  .md\:mx-80 {
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 
   .md\:block {
@@ -1002,8 +1011,40 @@ video {
     display: none;
   }
 
+  .md\:h-\[480px\] {
+    height: 480px;
+  }
+
   .md\:max-h-\[480px\] {
     max-height: 480px;
+  }
+
+  .md\:w-\[650px\] {
+    width: 650px;
+  }
+
+  .md\:w-\[600px\] {
+    width: 600px;
+  }
+
+  .md\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .md\:max-w-\[500\] {
+    max-width: 500;
+  }
+
+  .md\:max-w-\[500px\] {
+    max-width: 500px;
+  }
+
+  .md\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
+  .md\:max-w-\[650px\] {
+    max-width: 650px;
   }
 
   .md\:shrink-0 {
@@ -1012,6 +1053,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .md\:bg-\[url\(\'\.\/vitalFiles\/h-bg-md\.jpg\'\)\] {
