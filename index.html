@@ -7,195 +7,20 @@
     <title>Meta Horizon</title>
   </head>
 
-  <body class="relative h-screen">
-    <!-- nav section - START -->
-    <nav
-      class="sticky top-0 z-10 flex justify-center items-center sm:justify-between sm:gap-2 flex-wrap bg-white px-2 sm:px-6 lg:px-12 lg:py-5 py-3 gap-6"
-    >
-      <div>
-        <img src="./vitalFiles/logo.svg" alt="" class="w-36 lg:w-40" />
-      </div>
-      <div class="flex">
-        <button class="text-sm font-semibold px-4 py-2 lg:text-base hover:underline">Log in</button>
-        <button
-          class="rounded-full bg-indigo-800 bg-opacity-90 px-4 py-2 text-xs sm:text-sm font-semibold text-white md:hidden hover:bg-indigo-700"
-        >
-          View app
-        </button>
-      </div>
+  <body>
+    <!-- 👇 NAVBAR 👇 -->
+    <nav class="h-auto w-full py-9 px-16 flex flex-wrap justify-between content-center">
+      <div><img src="./vitalFiles/logo.svg" alt="logo" class="w-44"></div>
+      <div><a href="#" class="text-xl font-medium">Log in</a></div>
     </nav>
-    <!-- nav section - END -->
+    <!-- 👆 NAVBAR 👆 -->
+    
+    <!-- 👇 HERO SECTION 👇 -->
+    <section class="h-[606px] w-full flex justify-center content-baseline bg-hero-image bg-no-repeat bg-cover">
+      <div class="">
 
-    <!-- header section - START -->
-    <header
-      class="flex flex-col items-center justify-center bg-[url('./vitalFiles/h-bg-default.jpg')] bg-cover bg-center px-8 py-24 text-white md:bg-[url('./vitalFiles/h-bg-md.jpg')] lg:bg-[url('./vitalFiles/h-bg-lg.jpg')] min-[2560px]:bg-[url('./vitalFiles/h-bg-3xl.jpg')]"
-    >
-      <img
-        src="./vitalFiles/meta-horizon-default.svg"
-        alt="meta horizon"
-        class="w-52 md:hidden"
-      />
-      <img
-        src="./vitalFiles/meta-horizon-md.svg"
-        alt="meta horizon"
-        class="hidden w-52 md:block lg:hidden"
-      />
-      <img
-        src="./vitalFiles/meta-horizon-lg.svg"
-        alt="meta horizon"
-        class="hidden w-[500px] lg:block"
-      />
-      <h3 class="text-xl font-bold lg:text-2xl">
-        Available now for mobile and web.
-      </h3>
-      <button
-        class="mt-8 rounded-full bg-white px-6 py-1.5 font-normal text-black hover:bg-opacity-50 lg:hidden"
-      >
-        Download the app
-      </button>
-      <button
-        class="mt-12 hidden rounded-full bg-white px-8 py-4 text-black hover:bg-opacity-50 lg:block"
-      >
-        Sign up or log in to Meta account
-      </button>
-      <p class="mt-4 text-xs hover:underline">Learn more about Meta accounts</p>
-    </header>
-    <!-- header section - END -->
-
-    <!-- main section - START -->
-    <main class="flex flex-col items-center bg-slate-100">
-      <!-- Featured world section - START -->
-      <section
-        class="lg:mt-38 mt-24 flex flex-col justify-center px-9 lg:items-center"
-      >
-        <h2 class="mb-6 text-xl font-bold lg:mb-10 lg:text-2xl">
-          Featured world
-        </h2>
-
-        <!-- Featured world image - START -->
-        <div class="h-60 overflow-hidden rounded-xl lg:h-80">
-          <img
-            src="./vitalFiles/citadel.jpg"
-            alt="citadel"
-            class="h-full object-cover object-center"
-          />
-        </div>
-        <!-- Featured world image - END -->
-
-        <!-- Citadel section - START -->
-        <div
-          class="mt-4 flex w-full flex-col justify-between gap-5 lg:flex-row"
-        >
-          <!-- Citadel heading section - START -->
-          <div class="flex flex-col">
-            <h2 class="text-xl font-bold">Citadel</h2>
-            <div class="flex gap-1 text-sm font-bold text-gray-700">
-              <div>
-                <img
-                  src="./vitalFiles/men.svg"
-                  alt="MetaHorizon"
-                  class="inline-block"
-                />
-                <span>MetaHorizon</span>
-              </div>
-              <div>
-                <img
-                  src="./vitalFiles/like.svg"
-                  alt="like"
-                  class="inline-block"
-                />
-                <span>10.5K</span>
-              </div>
-            </div>
-            <div class="text-sm font-bold text-gray-700">
-              <img
-                src="./vitalFiles/mobile.svg"
-                alt="Mobile"
-                class="inline-block"
-              />
-              <span>Mobile and VR</span>
-            </div>
-          </div>
-          <!-- Citadel heading section - END -->
-
-          <!-- Citadel button section - START -->
-          <div>
-            <button
-              class="hidden rounded-full bg-indigo-800 bg-opacity-90 px-6 py-1.5 text-white lg:block"
-            >
-              <img
-                src="./vitalFiles/signin.svg"
-                alt="sign-in"
-                class="inline-block"
-              />
-              Sign in to visit
-            </button>
-            <button
-              class="w-full rounded-full bg-indigo-800 bg-opacity-90 px-6 py-1.5 text-white lg:hidden"
-            >
-              Download the app
-            </button>
-          </div>
-          <!-- Citadel button section - END -->
-        </div>
-        <!-- Citadel section - END -->
-      </section>
-      <!-- Featured world section - END -->
-
-      <!-- Endless play section - START -->
-      <section
-        class="w-full my-24 flex flex-col content-center justify-center gap-10 px-5 md:px-80 md:flex-row"
-      >
-        <div
-          class="flex items-center justify-center overflow-hidden rounded-3xl  md:shrink-0"
-        >
-          <img
-            src="./vitalFiles/EndlessPlay.jpg"
-            alt="Endless"
-            class="max-h-[300px] md:max-h-[480px] object-cover object-center"
-          />
-        </div>
-        <div
-          class="flex w-[100%] flex-col justify-center gap-7 lg:w-[600px] xl:w-[800px]"
-        >
-          <h3 class="text-xl font-bold lg:text-2xl">Endless play. Anywhere.</h3>
-          <p class="text-base text-gray-500 lg:text-lg">
-            Never miss a beat. Meta Horizon bridges the gap between mobile, web
-            and VR*, so you're never left out of the action. Gain experience and
-            level up, even if you're on the move.
-            <br /><br />
-            * not all content available on mobile and web
-          </p>
-        </div>
-      </section>
-      <!-- Endless play section - END -->
-
-      <!-- Discover in VR section - START -->
-      <section
-        class="mx-6 my-24 flex flex-col content-center justify-center gap-10 px-5 md:mx-80 md:flex-row-reverse"
-      >
-        <div
-          class="flex items-center justify-center overflow-hidden rounded-3xl md:shrink-0"
-        >
-          <img
-            src="./vitalFiles/vr.png"
-            alt="VR"
-            class="max-h-[300px] md:h-[480px] md:w-[600px] object-cover object-center"
-          />
-        </div>
-        <div
-          class="flex w-[200px] flex-col justify-center gap-7 lg:w-[600px] xl:w-[800px]"
-        >
-          <h3 class="lg:text2xl text-xl font-bold">More to discover in VR.</h3>
-          <p class="text-base text-gray-500 lg:text-lg">
-            Whether solving challenging puzzles, conquering epic quests,
-            battling it out or just chill-in with your squad, there's always
-            more to explore in VR with Meta Horizon worlds.
-          </p>
-        </div>
-      </section>
-      <!-- Discover in VR section - END -->
-    </main>
-    <!-- main section - END -->
+      </div>
+    </section>
+    <!-- 👆 HERO SECTION 👆 -->
   </body>
 </html>

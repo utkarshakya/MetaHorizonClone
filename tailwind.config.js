@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [".\\index.html"],
+  content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-image': "url('./vitalFiles/hero.jpg')",
+      },
+    },
   },
   plugins: [],
 }
