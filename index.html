@@ -8,19 +8,71 @@
   </head>
 
   <body>
-    <!-- 👇 NAVBAR 👇 -->
-    <nav class="h-auto w-full py-9 px-16 flex flex-wrap justify-between content-center">
-      <div><img src="./vitalFiles/logo.svg" alt="logo" class="w-44"></div>
-      <div><a href="#" class="text-xl font-medium">Log in</a></div>
+    <!-- NAVBAR -->
+    <nav
+      class="flex flex-wrap items-center justify-between gap-2 text-wrap p-2 sm:px-6 sm:py-4 md:px-16 md:py-6 lg:py-9"
+    >
+      <div>
+        <img
+          src="vitalFiles\icons\nav_logo.svg"
+          alt="nav-logo"
+          class="h-4 md:h-5"
+        />
+      </div>
+      <div class="flex items-center justify-center gap-3">
+        <div>
+          <a
+            href="#"
+            class="text-base font-normal hover:underline sm:font-medium md:text-lg"
+            >Log in</a
+          >
+        </div>
+        <button
+          class="rounded-full bg-[#4E4CB4] px-3 py-2 text-sm font-normal text-white md:hidden"
+        >
+          View app
+        </button>
+      </div>
     </nav>
-    <!-- 👆 NAVBAR 👆 -->
-    
-    <!-- 👇 HERO SECTION 👇 -->
-    <section class="h-[606px] w-full flex justify-center content-baseline bg-hero-image bg-no-repeat bg-cover">
-      <div class="">
 
+    <!-- HERO SECTION -->
+    <section
+      class="relative flex h-[496px] w-full content-baseline justify-center bg-hero1 bg-cover bg-center bg-no-repeat py-5 md:max-lg:h-[303px] md:max-lg:bg-hero2 lg:h-[606px] lg:bg-hero4 2xl:bg-hero5"
+    >
+      <div
+        class="absolute bottom-0 h-[40%] w-full bg-gradient-to-t from-black/50 via-black/50 to-transparent"
+      ></div>
+      <div
+        class="flex flex-col items-center justify-end gap-20 md:max-lg:gap-24 z-50"
+      >
+        <img
+          src="vitalFiles\icons\hero_logo.svg"
+          alt="hero-logo"
+          class="h-32 md:h-60 md:max-lg:hidden"
+        />
+        <img
+          src="vitalFiles\icons\nav_logo.svg"
+          alt="hero-logo"
+          class="hidden h-10 md:max-lg:block"
+        />
+        <div class="flex flex-col items-center justify-center gap-4">
+          <button
+            class="rounded-full bg-white px-6 py-1.5 text-base font-normal hover:bg-gray-100 md:hidden"
+          >
+            Download the app
+          </button>
+          <button
+            class="hidden rounded-full bg-white px-6 py-2 text-base font-normal hover:bg-gray-100 md:block lg:px-8 lg:py-5 lg:text-lg lg:font-medium"
+          >
+            Sign up or Log in to Meta account
+          </button>
+          <a
+            href="#"
+            class="text-sm text-white hover:underline lg:text-base lg:font-medium"
+            >Learn more about Meta account</a
+          >
+        </div>
       </div>
     </section>
-    <!-- 👆 HERO SECTION 👆 -->
   </body>
 </html>
