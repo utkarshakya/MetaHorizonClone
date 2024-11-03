@@ -54,9 +54,10 @@
         </h1>
       </div>
       <div class="overflow-hidden rounded-xl">
-        <img src="./vitalFiles/images/citadel1.jpg" alt="featured image" class="object-cover object-center sm:hidden" />
+        <img src="./vitalFiles/images/citadel1.jpg" alt="featured image"
+          class="cursor-pointer object-cover object-center sm:hidden" />
         <img src="./vitalFiles/images/citadel2.jpg" alt="featured image"
-          class="hidden object-cover object-center sm:block" />
+          class="hidden cursor-pointer object-cover object-center sm:block" />
       </div>
       <div class="flex flex-col gap-5 md:flex-row md:justify-between">
         <div class="flex flex-col items-start gap-1">
@@ -94,7 +95,7 @@
     <section class="mb-20 flex flex-col gap-20 sm:px-5 md:gap-24 md:px-10 lg:gap-36 lg:px-20 2xl:w-[1568px]">
       <div class="flex flex-col gap-10 md:flex-row lg:gap-20">
         <img src="./vitalFiles/images/endless.jpg" alt="endless"
-          class="rounded-2xl object-cover object-center md:w-[50%]" />
+          class="cursor-pointer rounded-2xl object-cover object-center md:w-[50%]" />
         <div class="flex flex-col justify-center gap-6">
           <h1 class="text-xl font-semibold lg:text-2xl 2xl:text-4xl">
             Endless Play. Anywhere.
@@ -122,10 +123,31 @@
             more to explore in VR with Meta Horizon worlds.
           </p>
         </div>
-        <img src="./vitalFiles/images/vr.png" alt="VR" class="rounded-2xl object-cover object-center md:w-[50%]" />
+        <img src="./vitalFiles/images/vr.png" alt="VR"
+          class="cursor-pointer rounded-2xl object-cover object-center md:w-[50%]" />
       </div>
     </section>
   </main>
+
+  <!-- COMMUNITY SECTION -->
+  <section
+    class="relative flex h-[426px] w-full flex-col items-center justify-center gap-10 bg-hero1 bg-cover bg-center bg-no-repeat px-10 py-5 md:max-lg:h-[303px] md:max-lg:bg-hero3 lg:h-[406px] lg:bg-hero4 xl:bg-hero5 2xl:h-[606px]">
+    <div class="absolute bottom-0 z-0 h-full w-full bg-black/40"></div>
+    <div class="z-10 flex flex-col items-center gap-5 text-center text-white">
+      <h1 class="text-lg font-semibold lg:text-2xl 2xl:text-4xl">
+        Join the community
+      </h1>
+      <p class="text-sm md:w-3/5 lg:text-lg 2xl:text-2xl">
+        Follow our channels to stay plugged into the exciting updates and
+        community events that will keep you one step ahead of the game.
+      </p>
+    </div>
+    <div class="z-10 flex justify-center gap-4">
+      <img src="./vitalFiles/icons/instagram.svg" alt="instagram" class="cursor-pointer" />
+      <img src="./vitalFiles/icons/facebook.svg" alt="facebook" class="cursor-pointer" />
+      <img src="./vitalFiles/icons/discord.svg" alt="discord" class="cursor-pointer" />
+    </div>
+  </section>
 </body>
 
 </html>
