@@ -1,78 +1,95 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Meta Horizon</title>
-  </head>
 
-  <body>
-    <!-- NAVBAR -->
-    <nav
-      class="flex flex-wrap items-center justify-between gap-2 text-wrap p-2 sm:px-6 sm:py-4 md:px-16 md:py-6 lg:py-9"
-    >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Meta Horizon</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="flex flex-wrap items-center justify-between gap-2 text-wrap p-2 sm:px-6 sm:py-4 md:px-16 md:py-6 lg:py-9">
+    <div>
+      <img src="vitalFiles\icons\nav_logo.svg" alt="nav-logo" class="h-4 md:h-5" />
+    </div>
+    <div class="flex items-center justify-center gap-3">
       <div>
-        <img
-          src="vitalFiles\icons\nav_logo.svg"
-          alt="nav-logo"
-          class="h-4 md:h-5"
-        />
+        <a href="#" class="text-base font-normal hover:underline sm:font-medium md:text-lg">Log in</a>
       </div>
-      <div class="flex items-center justify-center gap-3">
-        <div>
-          <a
-            href="#"
-            class="text-base font-normal hover:underline sm:font-medium md:text-lg"
-            >Log in</a
-          >
-        </div>
-        <button
-          class="rounded-full bg-[#4E4CB4] px-3 py-2 text-sm font-normal text-white md:hidden"
-        >
-          View app
-        </button>
-      </div>
-    </nav>
+      <button class="rounded-full bg-[#4E4CB4] px-3 py-2 text-sm font-normal text-white md:hidden">
+        View app
+      </button>
+    </div>
+  </nav>
 
-    <!-- HERO SECTION -->
-    <section
-      class="relative flex h-[496px] w-full content-baseline justify-center bg-hero1 bg-cover bg-center bg-no-repeat py-5 md:max-lg:h-[303px] md:max-lg:bg-hero2 lg:h-[606px] lg:bg-hero4 2xl:bg-hero5"
-    >
-      <div
-        class="absolute bottom-0 h-[40%] w-full bg-gradient-to-t from-black/50 via-black/50 to-transparent"
-      ></div>
-      <div
-        class="flex flex-col items-center justify-end gap-20 md:max-lg:gap-24 z-50"
-      >
-        <img
-          src="vitalFiles\icons\hero_logo.svg"
-          alt="hero-logo"
-          class="h-32 md:h-60 md:max-lg:hidden"
-        />
-        <img
-          src="vitalFiles\icons\nav_logo.svg"
-          alt="hero-logo"
-          class="hidden h-10 md:max-lg:block"
-        />
-        <div class="flex flex-col items-center justify-center gap-4">
-          <button
-            class="rounded-full bg-white px-6 py-1.5 text-base font-normal hover:bg-gray-100 md:hidden"
-          >
+  <!-- HERO SECTION -->
+  <section
+    class="relative flex h-[496px] w-full content-baseline justify-center bg-hero1 bg-cover bg-center bg-no-repeat py-5 md:max-lg:h-[303px] md:max-lg:bg-hero2 lg:h-[606px] lg:bg-hero4 2xl:bg-hero5">
+    <div class="absolute bottom-0 h-[40%] w-full bg-gradient-to-t from-black/50 via-black/50 to-transparent"></div>
+    <div class="z-50 flex flex-col items-center justify-end gap-20 md:max-lg:gap-24">
+      <img src="vitalFiles\icons\hero_logo.svg" alt="hero-logo" class="h-32 md:h-60 md:max-lg:hidden" />
+      <img src="vitalFiles\icons\nav_logo.svg" alt="hero-logo" class="hidden h-10 md:max-lg:block" />
+      <div class="flex flex-col items-center justify-center gap-4">
+        <button class="rounded-full bg-white px-6 py-1.5 text-base font-normal hover:bg-gray-100 md:hidden">
+          Download the app
+        </button>
+        <button
+          class="hidden rounded-full bg-white px-6 py-2 text-base font-normal hover:bg-gray-100 md:block lg:px-8 lg:py-5 lg:text-lg lg:font-medium">
+          Sign up or Log in to Meta account
+        </button>
+        <a href="#" class="text-sm text-white hover:underline lg:text-base lg:font-medium">Learn more about Meta
+          account</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="mx-10 flex flex-col items-center">
+    <!-- FEATURED SECTION -->
+    <section class="mt-20 flex flex-col gap-5 md:w-[496px] lg:mt-28 lg:w-[560px] xl:w-[620px] 2xl:w-fit">
+      <div>
+        <h1 class="ml-4 text-left text-xl font-semibold md:my-2 md:text-center md:text-2xl 2xl:text-4xl">
+          Featured world
+        </h1>
+      </div>
+      <div class="overflow-hidden rounded-xl">
+        <img src="./vitalFiles/images/citadel1.jpg" alt="featured image" class="object-cover object-center sm:hidden" />
+        <img src="./vitalFiles/images/citadel2.jpg" alt="featured image"
+          class="hidden object-cover object-center sm:block" />
+      </div>
+      <div class="flex flex-col gap-5 md:flex-row md:justify-between">
+        <div class="flex flex-col items-start gap-1">
+          <h2 class="text-xl font-semibold 2xl:text-4xl">Citadel</h2>
+          <div class="font-semibold text-gray-500">
+            <div>
+              <span class="inline-block">
+                <img src="./vitalFiles/icons/men.svg" alt="meta horizon" class="mr-1 inline-block 2xl:w-5" /><span
+                  class="2xl:text-xl">MetaHorizon</span>
+              </span>
+              <span class="inline-block">
+                <img src="./vitalFiles/icons/like.svg" alt="like" class="mx-1 inline-block 2xl:w-5" /><span
+                  class="2xl:text-xl">12K</span>
+              </span>
+            </div>
+            <div>
+              <img src="./vitalFiles/icons/mobile.svg" alt="mobile" class="mr-1 inline-block 2xl:w-5" /><span
+                class="2xl:text-xl">Mobile, web and VR</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="w-full rounded-full bg-[#4e4cb4] py-2 text-white md:hidden">
             Download the app
           </button>
-          <button
-            class="hidden rounded-full bg-white px-6 py-2 text-base font-normal hover:bg-gray-100 md:block lg:px-8 lg:py-5 lg:text-lg lg:font-medium"
-          >
-            Sign up or Log in to Meta account
+          <button class="hidden rounded-full bg-[#4e4cb4] px-10 py-2 text-white md:block">
+            <img src="./vitalFiles/icons/signIn.svg" alt="sign in" class="mr-2 inline-block 2xl:w-5" /><span
+              class="2xl:text-xl">Sign in to visit</span>
           </button>
-          <a
-            href="#"
-            class="text-sm text-white hover:underline lg:text-base lg:font-medium"
-            >Learn more about Meta account</a
-          >
         </div>
       </div>
     </section>
-  </body>
+  </main>
+</body>
+
 </html>
