@@ -593,9 +593,9 @@ video {
   margin-right: 1.5rem;
 }
 
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .my-2 {
@@ -608,18 +608,12 @@ video {
   margin-bottom: 5rem;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .mb-20 {
   margin-bottom: 5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .ml-4 {
@@ -632,10 +626,6 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .inline-block {
@@ -807,7 +797,7 @@ video {
 }
 
 .bg-hero1 {
-  background-image: url('/public/images/hero1.jpg');
+  background-image: url('public/images/hero1.jpg');
 }
 
 .from-black\/50 {
@@ -936,6 +926,11 @@ video {
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+
 .text-slate-600 {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity, 1));
@@ -944,11 +939,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 
 .no-underline {
@@ -1090,11 +1080,11 @@ video {
     }
 
     .md\:max-lg\:bg-hero2 {
-      background-image: url('/public/images/hero2.jpg');
+      background-image: url('public/images/hero2.jpg');
     }
 
     .md\:max-lg\:bg-hero3 {
-      background-image: url('/public/images/hero3.jpg');
+      background-image: url('public/images/hero3.jpg');
     }
   }
 }
@@ -1105,51 +1095,9 @@ video {
     margin-bottom: 7rem;
   }
 
-  .lg\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .lg\:my-4 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
   .lg\:my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-  }
-
-  .lg\:my-1 {
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-  }
-
-  .lg\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .lg\:my-2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .lg\:my-20 {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-
-  .lg\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
-  .lg\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
-  .lg\:mb-40 {
-    margin-bottom: 10rem;
   }
 
   .lg\:mb-32 {
@@ -1160,24 +1108,16 @@ video {
     display: flex;
   }
 
+  .lg\:h-5 {
+    height: 1.25rem;
+  }
+
   .lg\:h-\[406px\] {
     height: 406px;
   }
 
   .lg\:h-\[606px\] {
     height: 606px;
-  }
-
-  .lg\:h-auto {
-    height: auto;
-  }
-
-  .lg\:h-6 {
-    height: 1.5rem;
-  }
-
-  .lg\:h-5 {
-    height: 1.25rem;
   }
 
   .lg\:w-\[560px\] {
@@ -1200,6 +1140,14 @@ video {
     justify-content: space-between;
   }
 
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .lg\:gap-2 {
+    gap: 0.5rem;
+  }
+
   .lg\:gap-20 {
     gap: 5rem;
   }
@@ -1212,20 +1160,13 @@ video {
     gap: 2rem;
   }
 
-  .lg\:gap-10 {
-    gap: 2.5rem;
-  }
-
-  .lg\:gap-4 {
-    gap: 1rem;
-  }
-
-  .lg\:gap-2 {
-    gap: 0.5rem;
-  }
-
   .lg\:bg-hero4 {
-    background-image: url('/public/images/hero4.jpg');
+    background-image: url('public/images/hero4.jpg');
+  }
+
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .lg\:px-20 {
@@ -1253,31 +1194,6 @@ video {
     padding-bottom: 2.25rem;
   }
 
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .lg\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
-  .lg\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
-  .lg\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .lg\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1298,11 +1214,6 @@ video {
     line-height: 1.75rem;
   }
 
-  .lg\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .lg\:font-medium {
     font-weight: 500;
   }
@@ -1318,21 +1229,11 @@ video {
   }
 
   .xl\:bg-hero5 {
-    background-image: url('/public/images/hero5.jpg');
+    background-image: url('public/images/hero5.jpg');
   }
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .\32xl\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
   .\32xl\:h-\[506px\] {
     height: 506px;
   }
@@ -1351,7 +1252,7 @@ video {
   }
 
   .\32xl\:bg-hero5 {
-    background-image: url('/public/images/hero5.jpg');
+    background-image: url('public/images/hero5.jpg');
   }
 
   .\32xl\:text-2xl {
@@ -1367,9 +1268,5 @@ video {
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .\32xl\:font-semibold {
-    font-weight: 600;
   }
 }

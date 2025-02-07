@@ -1,17 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["index.html"],
   theme: {
     extend: {
       backgroundImage: {
-        'hero1': "url('/public/images/hero1.jpg')",
-        'hero2': "url('/public/images/hero2.jpg')",
-        'hero3': "url('/public/images/hero3.jpg')",
-        'hero4': "url('/public/images/hero4.jpg')",
-        'hero5': "url('/public/images/hero5.jpg')",
-        'citadel': "url('/public/images/citadel.jpg')",
-        'endless': "url('/public/images/endless.jpg')",
-        'vr': "url('/public/images/vr.png')",
+        'hero1': "url('public/images/hero1.jpg')",
+        'hero2': "url('public/images/hero2.jpg')",
+        'hero3': "url('public/images/hero3.jpg')",
+        'hero4': "url('public/images/hero4.jpg')",
+        'hero5': "url('public/images/hero5.jpg')",
+        'citadel': "url('public/images/citadel.jpg')",
+        'endless': "url('public/images/endless.jpg')",
+        'vr': "url('public/images/vr.png')",
       },
     },
     screens: {

@@ -1,3 +1,3 @@
-# meta-horizon-clone
+# Meta Horizon Web Page Clone
 
-A simple clone of Meta Horizon Home Page, Implementing Basics of HTML and Tailwind CSS.
+This will help in learning Tailwind CSS, It is a basic implimentaion Basics of HTML and Tailwind CSS.
