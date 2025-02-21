@@ -1,10 +1,9 @@
 {
-  "name": "metahorizonclone",
+  "name": "meta-horizon-clone",
   "version": "1.0.0",
   "description": "A simple clone of Meta Horizon Home Page, Implementing Basics of HTML and Tailwind CSS.",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch"
   },
   "author": "",
